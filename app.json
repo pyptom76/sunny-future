@@ -28,7 +28,11 @@
             "description": "Argo tunnel Domain",
             "required": false,
             "value": ""
-        }
+        },
+        "CADDYIndexPage": {
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考readme.md中的（5：Caddy主页配置）",
+            "value": "https://github.com/wulabing/3DCEList/archive/master.zip"
+        }        
     },
     "stack": "container"
 }
